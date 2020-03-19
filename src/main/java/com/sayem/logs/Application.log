@@ -1,0 +1,109 @@
+12/04/2019 20:56:27 DEBUG devpinoyLogger:68 - Hello
+12/04/2019 20:56:27 INFO  devpinoyLogger:69 - Hello
+12/04/2019 20:56:27 ERROR devpinoyLogger:70 - Hello
+12/04/2019 20:56:27 DEBUG devpinoyLogger:74 - Properties loaded. Starting testing
+12/04/2019 20:56:27 DEBUG devpinoyLogger:80 - Intialize Suite xlsx
+12/04/2019 20:56:28 DEBUG devpinoyLogger:86 - Login functionality -- Y
+12/04/2019 20:56:28 DEBUG devpinoyLogger:91 - ******Executing the Suite******Login functionality
+12/04/2019 20:56:28 DEBUG devpinoyLogger:95 - Register -- N
+12/04/2019 20:56:28 DEBUG devpinoyLogger:95 - RegisterWithFacebook -- N
+12/04/2019 20:56:28 DEBUG devpinoyLogger:95 - Login -- Y
+12/04/2019 20:56:28 DEBUG devpinoyLogger:99 - Executing the test case -> Login
+12/04/2019 20:56:28 DEBUG devpinoyLogger:105 - Iteration number 1
+12/04/2019 20:56:28 DEBUG devpinoyLogger:147 - openBrowser
+12/04/2019 20:56:28 DEBUG devpinoyLogger:40 - Opening browser
+12/04/2019 20:56:33 DEBUG devpinoyLogger:155 - PASS
+12/04/2019 20:56:33 DEBUG devpinoyLogger:147 - navigate
+12/04/2019 20:56:33 DEBUG devpinoyLogger:55 - Navigating to URL
+12/04/2019 20:56:39 DEBUG devpinoyLogger:155 - PASS
+12/04/2019 20:56:39 DEBUG devpinoyLogger:147 - pause
+12/04/2019 20:56:49 DEBUG devpinoyLogger:155 - PASS
+12/04/2019 20:56:49 DEBUG devpinoyLogger:147 - clickLink_linkText
+12/04/2019 20:56:49 DEBUG devpinoyLogger:87 - Clicking on link 
+12/04/2019 20:56:49 DEBUG devpinoyLogger:155 - PASS
+12/04/2019 20:56:49 DEBUG devpinoyLogger:147 - writeInInput
+12/04/2019 20:56:49 DEBUG devpinoyLogger:325 - Writing in text box
+12/04/2019 20:56:50 DEBUG devpinoyLogger:155 - PASS
+12/04/2019 20:56:50 DEBUG devpinoyLogger:147 - writeInInput
+12/04/2019 20:56:50 DEBUG devpinoyLogger:325 - Writing in text box
+12/04/2019 20:56:50 DEBUG devpinoyLogger:155 - PASS
+12/04/2019 20:56:50 DEBUG devpinoyLogger:147 - clickButton
+12/04/2019 20:56:50 DEBUG devpinoyLogger:115 - Clicking on Button
+12/04/2019 20:56:50 DEBUG devpinoyLogger:155 - PASS
+12/04/2019 20:56:50 DEBUG devpinoyLogger:147 - pause
+12/04/2019 20:57:00 DEBUG devpinoyLogger:155 - PASS
+12/04/2019 20:57:00 DEBUG devpinoyLogger:147 - verifyLinkText
+12/04/2019 20:57:00 DEBUG devpinoyLogger:96 - Verifying link Text
+12/04/2019 20:57:00 DEBUG devpinoyLogger:155 - PASS
+12/04/2019 20:57:00 DEBUG devpinoyLogger:147 - closeBrowser
+12/04/2019 20:57:00 DEBUG devpinoyLogger:459 - Closing the browser
+12/04/2019 20:57:00 DEBUG devpinoyLogger:155 - PASS
+12/04/2019 20:57:03 DEBUG devpinoyLogger:105 - Iteration number 2
+12/04/2019 20:57:03 DEBUG devpinoyLogger:147 - openBrowser
+12/04/2019 20:57:03 DEBUG devpinoyLogger:40 - Opening browser
+12/04/2019 20:57:06 DEBUG devpinoyLogger:155 - PASS
+12/04/2019 20:57:06 DEBUG devpinoyLogger:147 - navigate
+12/04/2019 20:57:06 DEBUG devpinoyLogger:55 - Navigating to URL
+12/04/2019 20:57:12 DEBUG devpinoyLogger:155 - PASS
+12/04/2019 20:57:12 DEBUG devpinoyLogger:147 - pause
+12/04/2019 20:57:22 DEBUG devpinoyLogger:155 - PASS
+12/04/2019 20:57:22 DEBUG devpinoyLogger:147 - clickLink_linkText
+12/04/2019 20:57:22 DEBUG devpinoyLogger:87 - Clicking on link 
+12/04/2019 20:57:22 DEBUG devpinoyLogger:155 - PASS
+12/04/2019 20:57:22 DEBUG devpinoyLogger:147 - writeInInput
+12/04/2019 20:57:22 DEBUG devpinoyLogger:325 - Writing in text box
+12/04/2019 20:57:22 DEBUG devpinoyLogger:155 - PASS
+12/04/2019 20:57:22 DEBUG devpinoyLogger:147 - writeInInput
+12/04/2019 20:57:22 DEBUG devpinoyLogger:325 - Writing in text box
+12/04/2019 20:57:22 DEBUG devpinoyLogger:155 - PASS
+12/04/2019 20:57:22 DEBUG devpinoyLogger:147 - clickButton
+12/04/2019 20:57:22 DEBUG devpinoyLogger:115 - Clicking on Button
+12/04/2019 20:57:22 DEBUG devpinoyLogger:155 - PASS
+12/04/2019 20:57:22 DEBUG devpinoyLogger:147 - pause
+12/04/2019 20:57:32 DEBUG devpinoyLogger:155 - PASS
+12/04/2019 20:57:32 DEBUG devpinoyLogger:147 - verifyLinkText
+12/04/2019 20:57:32 DEBUG devpinoyLogger:96 - Verifying link Text
+12/04/2019 20:57:52 DEBUG devpinoyLogger:155 - FAIL -- Link text not verifiedno such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Logout']"}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-E63GMB1', ip: '192.168.1.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\karne\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59918}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 85fc8727b51f44b60f56c1527b1db52b
+*** Element info: {Using=xpath, value=//*[text()='Logout']}
+12/04/2019 20:57:52 DEBUG devpinoyLogger:147 - closeBrowser
+12/04/2019 20:57:52 DEBUG devpinoyLogger:459 - Closing the browser
+12/04/2019 20:57:52 DEBUG devpinoyLogger:155 - PASS
+12/04/2019 20:57:53 DEBUG devpinoyLogger:95 - RequireValidation -- N
+12/04/2019 20:57:53 DEBUG devpinoyLogger:95 - LoginWithFacebook -- N
+12/04/2019 20:57:53 DEBUG devpinoyLogger:95 - Logout -- Y
+12/04/2019 20:57:53 DEBUG devpinoyLogger:99 - Executing the test case -> Logout
+12/04/2019 20:57:53 DEBUG devpinoyLogger:105 - Iteration number 1
+12/04/2019 20:57:53 DEBUG devpinoyLogger:147 - openBrowser
+12/04/2019 20:57:53 DEBUG devpinoyLogger:40 - Opening browser
+12/04/2019 20:57:57 DEBUG devpinoyLogger:155 - PASS
+12/04/2019 20:57:57 DEBUG devpinoyLogger:147 - navigate
+12/04/2019 20:57:57 DEBUG devpinoyLogger:55 - Navigating to URL
+12/04/2019 20:58:03 DEBUG devpinoyLogger:155 - PASS
+12/04/2019 20:58:03 DEBUG devpinoyLogger:147 - pause
+12/04/2019 20:58:13 DEBUG devpinoyLogger:155 - PASS
+12/04/2019 20:58:13 DEBUG devpinoyLogger:147 - clickLink_linkText
+12/04/2019 20:58:13 DEBUG devpinoyLogger:87 - Clicking on link 
+12/04/2019 20:58:13 DEBUG devpinoyLogger:155 - PASS
+12/04/2019 20:58:13 DEBUG devpinoyLogger:147 - writeInInput
+12/04/2019 20:58:13 DEBUG devpinoyLogger:325 - Writing in text box
+12/04/2019 20:58:13 DEBUG devpinoyLogger:155 - PASS
+12/04/2019 20:58:13 DEBUG devpinoyLogger:147 - writeInInput
+12/04/2019 20:58:13 DEBUG devpinoyLogger:325 - Writing in text box
+12/04/2019 20:58:13 DEBUG devpinoyLogger:155 - PASS
+12/04/2019 20:58:13 DEBUG devpinoyLogger:147 - clickButton
+12/04/2019 20:58:13 DEBUG devpinoyLogger:115 - Clicking on Button
+12/04/2019 20:58:13 DEBUG devpinoyLogger:155 - PASS
+12/04/2019 20:58:13 DEBUG devpinoyLogger:147 - pause
+12/04/2019 20:58:23 DEBUG devpinoyLogger:155 - PASS
+12/04/2019 20:58:23 DEBUG devpinoyLogger:147 - clickLink
+12/04/2019 20:58:23 DEBUG devpinoyLogger:65 - Clicking on link 
+12/04/2019 20:58:23 DEBUG devpinoyLogger:155 - PASS
+12/04/2019 20:58:24 DEBUG devpinoyLogger:95 - LogoutWithFacebook -- N
+12/04/2019 20:58:24 DEBUG devpinoyLogger:95 - ResetPassword -- N
